@@ -13,7 +13,7 @@ html{
 body {
   background-color: black;
   background-position: center;
-  width: 600px;
+  width: 630px;
   margin: auto;
   font-family: Impact, Charcoal, sans-serif;
 
@@ -28,20 +28,19 @@ a.text-dark:focus, a.text-dark:hover {
 .full-img {
   position: relative;
   display: block;
-  width: 605px;
-  height: 684px; }
+ }
 
 .displayed-img {
   position: relative;
   display: block;
-  width: 605px;
-  height: 684px; }
+  width: 100%;
+  height: auto; }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 605px;
+  width: 630px;
   height: 684px;
   background-color: rgba(0, 0, 0, 0); }
 
@@ -51,12 +50,14 @@ button {
   position: relative;
   cursor: pointer;
   top: 2px;
-  left: 2px; }
+  left: 2px;
+  margin-bottom: 4px;
+ }
 
 .thumb-bar img {
   display: block;
   width: 20%;
   float: left;
   cursor: pointer;
-  height: 150px;
+  height: 20%;
 }
